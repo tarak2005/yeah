@@ -1,0 +1,39 @@
+
+h1 {
+    color:green
+    }
+    
+    h2,p{
+        color: gold;
+        text-align: center;
+    }
+    
+    * {
+    border:solid
+    }
+    
+    .header{
+        background-color: rgb(20, 173, 220);
+    
+        display:flex;
+        justify-content: space-between;
+    
+    }
+    
+    .grid{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    
+    }
+    
+    .footer{
+        display:flex;
+        justify-content: flex-end;
+    }
+          
+    body{
+        background-color: teal;
+       padding-top: 20px;
+       font-style: italic;
+    }
